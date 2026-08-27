@@ -1,0 +1,314 @@
+{
+  "Ampara|dry_period": {
+    "mean": 28.09497325355255,
+    "std": 1.6494823224684265
+  },
+  "Ampara|ne_monsoon_peak": {
+    "mean": 25.89598420012508,
+    "std": 1.2312301475182026
+  },
+  "Anuradhapura|dry_period": {
+    "mean": 27.315080239109502,
+    "std": 1.1568345942357594
+  },
+  "Anuradhapura|ne_monsoon_peak": {
+    "mean": 25.36366030270573,
+    "std": 0.9905171285812134
+  },
+  "Badulla|inter_monsoon_1": {
+    "mean": 23.449025974095903,
+    "std": 1.0978927513390153
+  },
+  "Badulla|inter_monsoon_2": {
+    "mean": 23.13813664580124,
+    "std": 1.2805168154999074
+  },
+  "Badulla|ne_monsoon": {
+    "mean": 21.618274582560296,
+    "std": 0.8971840951097657
+  },
+  "Badulla|sw_monsoon": {
+    "mean": 25.252840595752897,
+    "std": 0.9934138874365063
+  },
+  "Batticaloa|dry_period": {
+    "mean": 28.481615796101323,
+    "std": 1.6263612054010244
+  },
+  "Batticaloa|ne_monsoon_peak": {
+    "mean": 26.161224489749838,
+    "std": 1.1170153303671415
+  },
+  "Colombo|inter_monsoon_1": {
+    "mean": 27.344305694205794,
+    "std": 0.7841934978531374
+  },
+  "Colombo|inter_monsoon_2": {
+    "mean": 25.94795031057143,
+    "std": 0.47983389856267195
+  },
+  "Colombo|ne_monsoon": {
+    "mean": 26.074025974007423,
+    "std": 0.7776600245914976
+  },
+  "Colombo|sw_monsoon": {
+    "mean": 26.702757859972422,
+    "std": 0.531114134512097
+  },
+  "Galle|inter_monsoon_1": {
+    "mean": 27.047964535644358,
+    "std": 0.6373207694674836
+  },
+  "Galle|inter_monsoon_2": {
+    "mean": 26.043726708173914,
+    "std": 0.46960720123535743
+  },
+  "Galle|ne_monsoon": {
+    "mean": 25.82959183666976,
+    "std": 0.491686541217278
+  },
+  "Galle|sw_monsoon": {
+    "mean": 26.662548262658575,
+    "std": 0.5231660089155961
+  },
+  "Gampaha|inter_monsoon_1": {
+    "mean": 27.243631368681317,
+    "std": 0.8381164144242882
+  },
+  "Gampaha|inter_monsoon_2": {
+    "mean": 25.675403726757764,
+    "std": 0.4770776741587505
+  },
+  "Gampaha|ne_monsoon": {
+    "mean": 26.142764378562152,
+    "std": 0.8878824952761349
+  },
+  "Gampaha|sw_monsoon": {
+    "mean": 26.283452840590183,
+    "std": 0.5228057254511742
+  },
+  "Hambantota|dry_period": {
+    "mean": 27.721605569443046,
+    "std": 0.7682840432635457
+  },
+  "Hambantota|ne_monsoon_peak": {
+    "mean": 26.459512837432523,
+    "std": 0.7375330857411745
+  },
+  "Jaffna|dry_period": {
+    "mean": 28.341685022086217,
+    "std": 1.1905374325645377
+  },
+  "Jaffna|ne_monsoon_peak": {
+    "mean": 26.374456879479922,
+    "std": 0.9849530495814718
+  },
+  "Kalmunai|dry_period": {
+    "mean": 28.28630034613908,
+    "std": 1.3388957176120413
+  },
+  "Kalmunai|ne_monsoon_peak": {
+    "mean": 26.365108624094802,
+    "std": 0.9852855107446804
+  },
+  "Kalutara|inter_monsoon_1": {
+    "mean": 27.064348151928073,
+    "std": 0.6862973690178513
+  },
+  "Kalutara|inter_monsoon_2": {
+    "mean": 25.909813664472047,
+    "std": 0.4717412390845033
+  },
+  "Kalutara|ne_monsoon": {
+    "mean": 25.916697588237476,
+    "std": 0.5808371221453201
+  },
+  "Kalutara|sw_monsoon": {
+    "mean": 26.611252068499724,
+    "std": 0.5504175117971215
+  },
+  "Kandy|inter_monsoon_1": {
+    "mean": 24.850449550509488,
+    "std": 0.9494174614789915
+  },
+  "Kandy|inter_monsoon_2": {
+    "mean": 23.293043478322982,
+    "std": 0.5937596632387101
+  },
+  "Kandy|ne_monsoon": {
+    "mean": 22.939981447244897,
+    "std": 0.830104798189545
+  },
+  "Kandy|sw_monsoon": {
+    "mean": 23.999889685548812,
+    "std": 0.6977929725967557
+  },
+  "Kegalle|inter_monsoon_1": {
+    "mean": 26.542994505494505,
+    "std": 1.1295545136616885
+  },
+  "Kegalle|inter_monsoon_2": {
+    "mean": 24.64136645956522,
+    "std": 0.6602719819904115
+  },
+  "Kegalle|ne_monsoon": {
+    "mean": 25.02708719848794,
+    "std": 1.1904506090252445
+  },
+  "Kegalle|sw_monsoon": {
+    "mean": 25.237506894660783,
+    "std": 0.9406298872375957
+  },
+  "Kilinochchi|dry_period": {
+    "mean": 28.481202800456263,
+    "std": 1.5155912260342352
+  },
+  "Kilinochchi|ne_monsoon_peak": {
+    "mean": 26.11856484528637,
+    "std": 1.1799981464500062
+  },
+  "Kurunegala|inter_monsoon_1": {
+    "mean": 27.064423076953048,
+    "std": 0.988099189180424
+  },
+  "Kurunegala|inter_monsoon_2": {
+    "mean": 25.12273291925466,
+    "std": 0.5582178937181009
+  },
+  "Kurunegala|ne_monsoon": {
+    "mean": 25.137105751307978,
+    "std": 0.809859082775516
+  },
+  "Kurunegala|sw_monsoon": {
+    "mean": 25.79922779926089,
+    "std": 0.686337643092541
+  },
+  "Mannar|dry_period": {
+    "mean": 28.229826148555695,
+    "std": 1.042214297846445
+  },
+  "Mannar|ne_monsoon_peak": {
+    "mean": 26.498288347544435,
+    "std": 0.8585575212171342
+  },
+  "Matale|inter_monsoon_1": {
+    "mean": 25.96539710281718,
+    "std": 0.8927431721133743
+  },
+  "Matale|inter_monsoon_2": {
+    "mean": 24.536894409813662,
+    "std": 0.7943476082247424
+  },
+  "Matale|ne_monsoon": {
+    "mean": 23.955380333821893,
+    "std": 0.6730156421522313
+  },
+  "Matale|sw_monsoon": {
+    "mean": 25.208990623386654,
+    "std": 0.8882498700290546
+  },
+  "Matara|inter_monsoon_1": {
+    "mean": 27.145629370639362,
+    "std": 0.6879382920233139
+  },
+  "Matara|inter_monsoon_2": {
+    "mean": 26.065217391391304,
+    "std": 0.47997169332890527
+  },
+  "Matara|ne_monsoon": {
+    "mean": 25.980055658719852,
+    "std": 0.620961099770518
+  },
+  "Matara|sw_monsoon": {
+    "mean": 26.720132377275235,
+    "std": 0.5361955148777225
+  },
+  "Monaragala|inter_monsoon_1": {
+    "mean": 26.178846153856146,
+    "std": 1.0114581478258111
+  },
+  "Monaragala|inter_monsoon_2": {
+    "mean": 25.52447204978882,
+    "std": 1.376062249806441
+  },
+  "Monaragala|ne_monsoon": {
+    "mean": 24.434879406493504,
+    "std": 0.5964279132798642
+  },
+  "Monaragala|sw_monsoon": {
+    "mean": 27.982790954142306,
+    "std": 1.0081436143580158
+  },
+  "Mullaitivu|dry_period": {
+    "mean": 28.456446664518566,
+    "std": 1.452680812001528
+  },
+  "Mullaitivu|ne_monsoon_peak": {
+    "mean": 26.299144173890717,
+    "std": 1.0743119144011855
+  },
+  "Nuwara Eliya|inter_monsoon_1": {
+    "mean": 17.123189310839162,
+    "std": 1.097521946935318
+  },
+  "Nuwara Eliya|inter_monsoon_2": {
+    "mean": 16.36086956525466,
+    "std": 0.8705511152435917
+  },
+  "Nuwara Eliya|ne_monsoon": {
+    "mean": 15.694063079833024,
+    "std": 1.1295900108457528
+  },
+  "Nuwara Eliya|sw_monsoon": {
+    "mean": 16.971649200143407,
+    "std": 1.1047859878879382
+  },
+  "Polonnaruwa|dry_period": {
+    "mean": 28.190312303385777,
+    "std": 1.6904989960643506
+  },
+  "Polonnaruwa|ne_monsoon_peak": {
+    "mean": 25.770506912396314,
+    "std": 1.3725225385219235
+  },
+  "Puttalam|dry_period": {
+    "mean": 27.409400566331026,
+    "std": 0.8266713861008936
+  },
+  "Puttalam|ne_monsoon_peak": {
+    "mean": 26.013561553515473,
+    "std": 0.6926596854793982
+  },
+  "Ratnapura|inter_monsoon_1": {
+    "mean": 26.431156343596403,
+    "std": 0.7270104829494799
+  },
+  "Ratnapura|inter_monsoon_2": {
+    "mean": 25.275652174086957,
+    "std": 0.39327489242412217
+  },
+  "Ratnapura|ne_monsoon": {
+    "mean": 25.353617810742115,
+    "std": 0.5879981246175209
+  },
+  "Ratnapura|sw_monsoon": {
+    "mean": 25.63949255366244,
+    "std": 0.6255341859015864
+  },
+  "Trincomalee|dry_period": {
+    "mean": 28.422966488458147,
+    "std": 1.396502056215852
+  },
+  "Trincomalee|ne_monsoon_peak": {
+    "mean": 26.29473337719552,
+    "std": 1.032206478501257
+  },
+  "Vavuniya|dry_period": {
+    "mean": 27.69250707996224,
+    "std": 1.4531953997898648
+  },
+  "Vavuniya|ne_monsoon_peak": {
+    "mean": 25.326464779447004,
+    "std": 1.1963953170147255
+  }
+}

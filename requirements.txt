@@ -3,7 +3,12 @@ uvicorn[standard]>=0.30.0
 httpx>=0.27.0
 pillow>=10.3.0
 numpy>=1.26.0
+pandas>=2.2.0
 pydantic>=2.7.0
 tensorflow>=2.16.0
-scikit-learn>=1.8.0
+# Scalers were pickled with 1.8.0 (requires Python >=3.11). On 3.10 the newest
+# installable release is 1.7.2; MinMaxScaler unpickle still matches (parity ~1e-8).
+scikit-learn>=1.8.0; python_version>="3.11"
+scikit-learn>=1.7.2,<1.8; python_version<"3.11"
 joblib>=1.4.0
+pytest>=8.0.0

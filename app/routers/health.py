@@ -13,15 +13,17 @@ class HealthResponse(BaseModel):
 
 @router.get("/health", response_model=HealthResponse)
 async def health(request: Request) -> HealthResponse:
-    cnn_ok = request.app.state.cnn_model is not None
-    lstm_ok = request.app.state.lstm_model is not None
-    windows_ok = request.app.state.latest_windows is not None
-
+    state = request.app.state
+    flags = {
+        "cnn_breeding_site_classifier": getattr(state, "cnn_model", None) is not None,
+        "lstm_dengue_forecaster": getattr(state, "lstm_model", None) is not None,
+        "feature_scaler": getattr(state, "feature_scaler", None) is not None,
+        "target_scaler": getattr(state, "target_scaler", None) is not None,
+        "temp_zscore_baselines": getattr(state, "temp_zscore_baselines", None) is not None,
+        "residual_intervals": getattr(state, "residual_intervals", None) is not None,
+    }
+    ready = all(flags.values())
     return HealthResponse(
-        status="ok",
-        models={
-            "cnn_breeding_site_classifier": "loaded" if cnn_ok else "missing",
-            "lstm_dengue_forecaster": "loaded" if lstm_ok else "missing",
-            "forecast_windows": "loaded" if windows_ok else "missing",
-        },
+        status="ok" if ready else "degraded",
+        models={name: "loaded" if ok else "missing" for name, ok in flags.items()},
     )

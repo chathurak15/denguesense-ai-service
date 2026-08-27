@@ -1,0 +1,6 @@
+{
+  "model_version": "lstm-v1",
+  "weights_file": "_28_loss_0.0039_weights.keras",
+  "lookback_weeks": 4,
+  "forecast_horizon_weeks": 4
+}
